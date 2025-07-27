@@ -10,7 +10,7 @@ Built for everyone — including mobile-first coders using Termux or Pydroid 3.
 Install directly from PyPI:
 
 ```
-pip install emoji-diamond
+pip install emoji-diamond == 0.1
 ```
 
 
@@ -29,7 +29,7 @@ pip install emoji-diamond
 3. Run:
 
 ```
-pip install emoji-diamond
+pip install emoji-diamond == 0.1
 ```
 
 
@@ -40,7 +40,7 @@ Make sure Python is installed, then run:
 ```
 pip install emoji-diamond
 
-OR
+OR still
 
 pip install emoji-diamond==0.1
 ```
