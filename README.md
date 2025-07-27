@@ -12,9 +12,8 @@ diamond.diamond()
 
 where n is any Integer >= 4
 
-RUN author code(optional)
-
-diamond.Author()
+##run author code below(optional)
+Author()
 
 
 ## 🧪 Want to Later Upload to PyPI?
