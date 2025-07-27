@@ -1,18 +1,18 @@
-## 💎 emoji_diamond
+# 💎 emoji_diamond
 
 A fun and educational Python package that draws randomized emoji diamond patterns!
 Built for everyone — including mobile-first coders using Termux or Pydroid 3.
 
 
 
-## 🔧 Installation
+# 🔧 Installation
 
 Install directly from PyPI:
 
 pip install emoji-diamond
 
 
-# ✅ Mobile Setup
+## ✅ Mobile Setup
 
 
 **In Pydroid 3:**
@@ -38,10 +38,10 @@ pip install emoji-diamond
 
 
 
-## 🧠 How It Works
+# 🧠 How It Works
 
 
-# To draw a diamond:
+## To draw a diamond:
 
 1. Import the class
 
@@ -57,7 +57,7 @@ pip install emoji-diamond
 
 
 
-# ✨ Usage Example
+## ✨ Usage Example
 
 from emoji_diamond.stars import Shape  # Step 1: Import
 
@@ -68,7 +68,7 @@ pattern.info()                         # Step 5 (optional): Show diamond info
 
 
 
-## 🔄 Random Emoji Feature
+# 🔄 Random Emoji Feature
 
 Each diamond is drawn using random emojis selected from a built-in list of over 200 emojis.
 
@@ -99,9 +99,9 @@ Then next time it might be:
 
 
 
-## 🧾 What Each Part Does
+# 🧾 What Each Part Does
 
-# 🔹 Shape(number)
+## 🔹 Shape(number)
 
 This is the class constructor. You pass in a single number that represents how many rows the diamond should have from the middle to the top.
 
@@ -119,7 +119,7 @@ Shape(5) → 9 rows
 And so on...
 
 
-# 🔹 .diamond()
+## 🔹 .diamond()
 
 This is the main method that draws the diamond shape using a random emoji.
 
@@ -128,13 +128,13 @@ It prints directly in the console or terminal.
 pattern = Shape(3)
 pattern.diamond()
 
-# 🔹 .Author()
+## 🔹 .Author()
 
 Returns the author and branding:
 
 Powered by Oligotech 🇬🇭
 
-# 🔹 .info()
+## 🔹 .info()
 
 Returns helpful info based on your input:
 
@@ -142,7 +142,7 @@ This diamond has 3 rows from the middle upwards.
 
 
 
-💻 Example Output (All in One)
+## 💻 Example Output (All in One)
 
 from emoji_diamond.stars import Shape
 
