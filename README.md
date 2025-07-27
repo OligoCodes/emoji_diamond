@@ -81,7 +81,7 @@ pattern.diamond()
 # Step 3: Draw the diamond
 
 
-pattern.author()
+patter.Author()
 # Step 4 (optional): Show author info
 
 
