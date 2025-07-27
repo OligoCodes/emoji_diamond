@@ -9,7 +9,10 @@ Built for everyone — including mobile-first coders using Termux or Pydroid 3.
 
 Install directly from PyPI:
 
+```
 pip install emoji-diamond
+```
+
 
 
 ## ✅ Mobile Setup
@@ -25,18 +28,22 @@ pip install emoji-diamond
 
 3. Run:
 
+```
 pip install emoji-diamond
-
+```
 
 
 **In Termux:**
 
 Make sure Python is installed, then run:
 
+```
 pip install emoji-diamond
 
+OR
 
-
+pip install emoji-diamond==0.1
+```
 
 # 🧠 How It Works
 
@@ -127,7 +134,9 @@ This is the class constructor. You pass in a single number that represents how m
 
 The total rows of the diamond are calculated automatically using:
 
+```
 total_rows = number * 2 - 1
+
 
 So:
 
@@ -137,6 +146,7 @@ Shape(4) → 7 rows
 
 Shape(5) → 9 rows
 And so on...
+```
 
 
 ## 🔹 .diamond()
@@ -145,8 +155,10 @@ This is the main method that draws the diamond shape using a random emoji.
 
 It prints directly in the console or terminal.
 
+```
 pattern = Shape(3)
 pattern.diamond()
+```
 
 
 ## 🔹 .Author()
@@ -166,6 +178,7 @@ This diamond has 3 rows from the middle upwards.
 
 ## 💻 Example Output (All in One)
 
+```
 from emoji_diamond.stars import Shape
 
 pattern = Shape(3)
@@ -173,8 +186,8 @@ pattern.diamond()
 pattern.info()
 pattern.Author()
 
-```
-Output:
+
+*Output:*
 
      🐙
    🐙🐙🐙
