@@ -59,18 +59,33 @@ pip install emoji-diamond
 
 ## ✨ Usage Example
 
-from emoji_diamond.stars import Shape  # Step 1: Import
+```python
 
-pattern = Shape(4)                     # Step 2: Create the object with 4 as input
-pattern.diamond()                      # Step 3: Draw the diamond
-pattern.author()                       # Step 4 (optional): Show author info
-pattern.info()                         # Step 5 (optional): Show diamond info
 
+from emoji_diamond.stars import Shape
+# Step 1: Import
+
+
+pattern = Shape(4)
+# Step 2: Create the object with 4 as input
+
+
+pattern.diamond()
+# Step 3: Draw the diamond
+
+
+pattern.author()
+# Step 4 (optional): Show author info
+
+
+pattern.info()
+# Step 5 (optional): Show diamond info
+```
 
 
 # 🔄 Random Emoji Feature
 
-Each diamond is drawn using random emojis selected from a built-in list of over 200 emojis.
+Each diamond is drawn using random emojis selected from a built-in list of over 200 emojis. 🤙🏽😍🇬🇭
 
 That means:
 
@@ -79,27 +94,32 @@ Every time you run .diamond(), the diamond will look a little different
 The emoji used is randomly chosen and may vary from stars to hearts, animals, food, shapes, and more!
 
 
-You don’t have to configure anything — just enjoy the surprise!
+You don’t have to configure anything , just enjoy the surprise!
 
 Example:
 
+```
       🐍
     🐍🐍🐍
   🐍🐍🐍🐍🐍
     🐍🐍🐍
       🐍
+```
 
 Then next time it might be:
 
+```
       ❤️ 
     ❤️❤️❤️
   ❤️❤️❤️❤️❤️
     ❤️❤️❤️
       ❤️
+```
 
 
 
 # 🧾 What Each Part Does
+
 
 ## 🔹 Shape(number)
 
@@ -128,11 +148,13 @@ It prints directly in the console or terminal.
 pattern = Shape(3)
 pattern.diamond()
 
+
 ## 🔹 .Author()
 
 Returns the author and branding:
 
-Powered by Oligotech 🇬🇭
+**Powered by Oligotech 🇬🇭**
+
 
 ## 🔹 .info()
 
@@ -151,6 +173,7 @@ pattern.diamond()
 pattern.info()
 pattern.Author()
 
+```
 Output:
 
      🐙
@@ -162,18 +185,16 @@ Output:
 This diamond has 3 rows from the middle upwards.
 
 **Powered by Oligotech 🇬🇭**
+```
 
 
-
-## 🌍 Author
+# 🌍 Author
 
 Made in Ghana 🇬🇭 by [Oligotech](https://t.me/OligoTech)
 For support, bug reports, or ideas: visit the GitHub repository or message on social media.
 
 
-
-
-## 📱 Built for Mobile Developers
+# 📱 Built for Mobile Developers
 
 This package works beautifully even on phones, with tools like:
 
@@ -188,16 +209,12 @@ This package works beautifully even on phones, with tools like:
 ✅ Google Colab (for visual test outputs)
 
 
-
-
-## 📄 License
+# 📄 License
 
 MIT License — free for use, distribution, and modification.
 
 
-
-
-## 📌 Summary
+# 📌 Summary
 
 Feature	Usage
 
